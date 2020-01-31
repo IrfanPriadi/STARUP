@@ -1,0 +1,49 @@
+h1 { 
+    font-size: 80px;
+    background-color: blue; border-style: inset; font-style: oblique;
+    border-style: dashed;
+    animation: bakso 30s;
+    ;
+}
+h3 {
+    background-color: red;
+    border-style: dashed;
+}
+.pisang{
+    color: blue; 
+    border-style: dashed;
+}
+.monyet {
+    color:blue;
+    border-style: dashed;
+}
+.mangga {
+    color:blue;
+    border-style: solid;
+}
+.duriaan {
+    color: crimson;
+    border-style: dashed;
+    
+}
+.rambutan {
+    color: goldenrod;
+    border-style: solid;
+    animation: rambutan 30s;
+    
+}
+@keyframes bakso {
+    70% {
+        padding-left:30px ;}
+        60% {
+            padding-left: 30px;
+        }
+}
+@keyframes rambutan {
+    80% {
+        padding-left: 30px;}
+        70% {
+            padding-left: 60px;
+        }
+}
+h4
